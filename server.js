@@ -887,7 +887,7 @@ app.post('/api/check-access', (req, res) => {
 app.post('/api/admin/login', (req, res) => {
     const { username, password } = req.body;
     
-    if (username === 'painel-iago' && password === '#Senha8203') {
+    if (username === 'painel-danilo' && password === '@Vaisefuder123') {
         res.json({ 
             success: true, 
             message: 'Login realizado com sucesso!',
@@ -1047,7 +1047,7 @@ app.get('/sw.js', (req, res) => {
 });
 
 // STATIC FILE ROUTES
-app.get('/painel-x7k2m9', (req, res) => {
+app.get('/painel-zias18fnas08', (req, res) => {
     try {
         const adminPath = path.join(__dirname, 'public', 'admin.html');
         
@@ -1117,7 +1117,7 @@ app.get('/painel-x7k2m9', (req, res) => {
                         <p>🔧 Webhook PerfectPay otimizado</p>
                         
                         <p style="margin-top: 2rem; font-size: 0.9rem; color: #666;">
-                            Login: painel-iago | Senha: #Senha8203
+                            Login: painel-danilo | Senha: @Vaisefuder123
                         </p>
                     </div>
                 </body>
@@ -1186,7 +1186,7 @@ app.get('/', (req, res) => {
                         <p>⚠️ Arquivo index.html não encontrado em public/</p>
                         
                         <h2>🔗 Links principais:</h2>
-                        <a href="/painel-x7k2m9">🛠️ Painel Administrativo</a>
+                        <a href="/painel-zias18fnas08">🛠️ Painel Administrativo</a>
                         <a href="/debug/products">📦 Ver Produtos (Debug)</a>
                         <a href="/debug/access">🔑 Ver Acessos (Debug)</a>
                         
@@ -1251,7 +1251,7 @@ app.listen(PORT, () => {
     console.log(`🌐 Porta: ${PORT}`);
     console.log(`\n📱 LINKS PRINCIPAIS:`);
     console.log(`   App Principal: http://localhost:${PORT}`);
-    console.log(`   Painel Admin:  http://localhost:${PORT}/painel-x7k2m9`);
+    console.log(`   Painel Admin:  http://localhost:${PORT}/painel-zias18fnas08`);
     console.log(`\n🔌 API ENDPOINTS:`);
     console.log(`   Produtos:      GET  /api/products`);
     console.log(`   User Products: POST /api/user/products (CORRIGIDO)`);
