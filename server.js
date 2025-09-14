@@ -118,7 +118,7 @@ db.serialize(() => {
                     description: "Clique no botão abaixo e fale com a Fabaine no seu Whatsapp particular",
                     banner_url: "https://files.catbox.moe/i6sfiz.png",
                     main_video: "https://e-volutionn.com/wp-content/uploads/2025/07/download-1.mp4",
-                    access_url: "https://wa.me/5511975768554?text=Oi%20Fabi%2C%20vim%20pelo%20APP",
+                    access_url: "https://wa.link/nc7plf",
                     category: "meus_produtos",
                     plano_1: "PPLQQLST6"
                 },
